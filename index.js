@@ -106,7 +106,7 @@ function long(dir) {
     // the ref is stored in the packfile (.git/packed-refs). Fall back to
     // looking up the hash here.
     var refToFind = ['refs', 'heads', b].join('/');
-    var packfileContents = fs.readFileSync(path.resolve(gitDir, 'packed-refs'), 'utf8');
+    var packfileContents = fs.readFileSync(path.resolve(gitRootDir, 'packed-refs'), 'utf8');
     var packfileRegex = new RegExp('(.*) ' + escapeStringRegexp(refToFind));
     ref = packfileRegex.exec(packfileContents)[1];
   }
