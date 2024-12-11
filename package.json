@@ -1,11 +1,16 @@
 {
-  "name": "git-rev-sync",
-  "version": "3.0.2",
-  "author": "kurttheviking",
+  "name": "@hubuntub/git-rev-sync",
+  "version": "3.0.3",
+  "author": "hubuntub",
   "bugs": {
-    "url": "https://github.com/kurttheviking/git-rev-sync-js/issues"
+    "url": "https://github.com/hubuntub/git-rev-sync-js/issues"
   },
   "contributors": [
+    {
+      "name": "Houbeb Ben Othmene",
+      "email": "hubuntub@users.noreply.github.com",
+      "url": "https://github.com/hubuntub"
+    },
     {
       "name": "Kurt Ericson",
       "email": "github@kurttheviking.com",
@@ -52,7 +57,7 @@
     }
   ],
   "description": "Synchronously get the current git commit hash, tag, or branch",
-  "homepage": "https://github.com/kurttheviking/git-rev-sync-js",
+  "homepage": "https://github.com/hubuntub/git-rev-sync-js",
   "license": "MIT",
   "main": "index.js",
   "scripts": {
@@ -62,7 +67,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:kurttheviking/git-rev-sync-js.git"
+    "url": "git@github.com:hubuntub/git-rev-sync-js.git"
   },
   "dependencies": {
     "escape-string-regexp": "1.0.5",
